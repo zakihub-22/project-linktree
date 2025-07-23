@@ -1,7 +1,9 @@
+:root 
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: blue;
+  background-color: rgb(0, 179, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,34 +19,22 @@ h1 {
   margin-bottom: 30px;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.links a i {
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-.card {
-  padding: 15px 25px;
-  text-decoration: none;
-  color: white;
-  border-radius: 10px;
-  font-size: 18px;
-  transition: transform 0.3s, opacity 0.3s;
+/* Hapus baris .links a i{ color: #E1306C; } dan .links a i{ color: #25D366; } */
+
+/* Warna khusus untuk tiap ikon */
+.instagram i {
+  color: #E1306C; /* Pink Instagram */
+}
+.whatsapp i {
+  color: #25D366; /* Hijau WhatsApp */
+}
+.tiktok i {
+  color: black;    /* Putih TikTok */
 }
 
-.card:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
-}
-
-.instagram {
-  background: #E1306C;
-}
-
-.whatsapp {
-  background: #25D366;
-}
-
-.tiktok {
-  background: #000000;
-}
